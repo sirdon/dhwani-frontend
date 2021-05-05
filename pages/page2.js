@@ -21,7 +21,7 @@ function page2() {
       <div className="container">
         <Link href="/">
           <Button variant="primary" className="button">
-            Go to page 1
+            Go to Page 1
           </Button>
         </Link>
         <Pie

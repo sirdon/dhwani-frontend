@@ -58,10 +58,10 @@ body {
 }
 
 .header {
-  padding: 50px 15px;
+  padding: 30px 15px;
   background-color: $bg-color;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 
   h1 {
     font-size: 40px;
@@ -71,7 +71,7 @@ body {
 .pie-container {
   max-width: 500px;
   width: 70%;
-  margin: 100px auto 40px;
+  margin: 30px auto 40px;
 }
 .button {
   display: block;
@@ -84,7 +84,7 @@ body {
 .table-container {
   // max-width: 500px;
   width: 100%;
-  margin: 50px auto 40px;
+  margin: 20px auto 40px;
 
   &__title {
     background-color: $highlight-color;

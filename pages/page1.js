@@ -30,11 +30,11 @@ function page1() {
 
   return (
     <div>
-      <Header title="Responsive table" />
+      <Header title="Responsive Table" />
       <div className="container">
         <Link href="/page2">
           <Button variant="primary" className="button" onClick={cancelApiReq}>
-            Go to page 2
+            Go to Page 2
           </Button>
         </Link>
         {user.length < 1 ? (
@@ -43,14 +43,14 @@ function page1() {
           <Table
             tableData={user}
             headingColumns={[
-              "id",
-              "name",
-              "username",
-              "email",
-              "phone",
-              "website",
+              "Id",
+              "Name",
+              "Username",
+              "Email",
+              "Phone",
+              "Website",
             ]}
-            title="user data"
+            title="User Data"
             breakOn="large"
           />
         )}
